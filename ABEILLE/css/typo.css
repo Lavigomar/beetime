@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+</style>
+
+
+
+      body {
+        font-family: 'Playfair', serif;
+        font-size: 48px;
+      }
+body {
+  font-family: sans-serif;
+}
+  .Playfair{
+  font-size: 3em ;
+}
+
+header {
+  background: white;
+}
+h1 {
+  font-size: 3em;
+  font-family: 'Playfair', sans-serif;
+  font-weight: 600;
+}
+h1 {
+  margin-top: 100px;
+}
+h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  text-align: right;
+  font-family: 'Playfair', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  }
+
+li {
+  font-size: 1.5em;
+font-family: 'Playfair', sans-serif;
+  text-decoration: none;
+}
+.lien {
+  font-family: 'Playfair', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+font-family: 'Playfair', sans-serif;
+  text-decoration: none;
+
+}
+span { font-weight: bold;
+  font-size: 1.5em;
+
+}
+.text-contact p {
+  font-size: 20px;
+font-family: 'Playfair', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-feature p {
+  padding-bottom: 20px;
+  color: grey;
+}
+.illustrations-content h2 {
+  padding-top: 20px;
+}
+
+.popup h2{
+  text-align: center;
+}

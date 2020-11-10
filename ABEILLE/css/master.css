@@ -1,0 +1,245 @@
+header {
+  position: sticky;
+  top: calc(-100vh + 110px);
+    background: beige;
+
+}
+body{
+  margin: 0;
+}
+/*
+body{
+  overflow: hidden;
+
+}
+*/
+#header1 {
+
+}
+
+
+.logo-titre {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+      margin-top: -90px;
+}
+.logo-titre img  {
+  width: 100px;
+  height: 100px;
+  margin: auto 0 auto 0;
+}
+.logo-titre h1 {
+  margin: 0;
+}
+
+section {
+margin: 0 auto;
+}
+section {
+margin-top: -110px;
+}
+
+
+.centrer-menu{
+  width: 100%;
+  justify-content: center;
+}
+
+.toggle-menu {
+text-align: center;}
+
+#main-menu:target {
+  display: block;
+  .toggle-menu{
+    display:none;
+  }
+
+}
+
+#main-menu{
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+
+#main-menu ul {
+padding-left:4;
+border: 5;
+list-style-type: none;
+
+}
+
+  #main-menu ul {
+    display: flex;
+    justify-content: space-around;
+  width: 100%;
+
+
+}
+.toggle-menu {
+    display: none;}
+
+.test1 img{
+  position: absolute;
+      left: -999em;
+}
+
+}
+
+
+#step1 {
+padding-top: 100px;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+#step2 {
+  padding-top: 100px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#step3 {
+  padding-top: 100px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+#step4 {
+  padding-top: 100px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.la-vie-ruche {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+@media (max-width: 639px) {
+  #main-menu{
+    display: none;
+    pading: 0;
+  }
+
+
+    li{display: flex;
+      justify-content: center;  }
+
+  a {  margin: auto;
+      padding: 20px;}
+
+
+  ul {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    border-top: 1px solid black;
+  }
+
+  #main-menu ul {
+margin: 0;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+.test1 img{
+  width: 100vw;
+}
+}
+@media (max-width: 1200px) {
+  .main-content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-background2 img {
+    max-width: 300px;
+    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  }
+  .image-background img{
+    position: absolute;
+        left: -999em;
+  }
+  .la-vie-ruche {
+  padding-bottom: 50px;
+  }
+  }
+  @media (min-width: 1200px) {
+    .image-background img {
+      max-width: 100%;
+      height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+    .image-background2 img{
+      position: absolute;
+          left: -999em;
+    }
+    }
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-content  {
+  flex-basis: 600px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 80vw;
+  min-height: 200px;  }
+
+  .text-content-step2  {
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80vw;
+    min-height: 200px;
+  margin-right: 50px;}
+}
+
+.text-content-step2  {
+  flex-basis: 500px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 80vw;
+  min-height: 200px;  }
+figure {
+  margin-left: 0;
+}
+
+
+.la-vie-ruche img {
+  padding-right: 50px;
+}
+
+.
+
+
+
+
+
+
+}
